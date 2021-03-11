@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UIB Interaction Exercises 1 - Footer</title>
     <style>
-        #footerbox {
+        .footerbox {
             width: 100%;
             height: 100px;
-            background-color: #2196f3;
+            background-color: #031421;
             letter-spacing: 1.1em;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        #footerlink {
+        .footerlink {
             position: relative;
             display: block;
-            padding: 15px 30px;
             padding: 18px;
+            width: 200px;
+            height: 45px;
             color: #2196F3;
             text-transform: uppercase;
             letter-spacing: 18px;
@@ -28,49 +29,47 @@
             font-size: 30px;
         }
 
-        #footerlink:hover {
-            text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #2196F3, 0 0 70px #2196F3, 0 0 80px #2196F3, 0 0 100px #2196F3, 0 0 170px #2196F3;
-            /* animation-name: footeranimation;
-            animation-duration: 2s;
+        a:hover {
+            animation-name: footeranimation;
+            animation-duration: 1.5s;
             animation-iteration-count: 1;
-            animation-fill-mode: initial; */
+            animation-fill-mode: forwards;
         }
 
         @keyframes footeranimation {
             0% {
-                color: #2196F3;
-                text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #2196F3, 0 0 70px #2196F3, 0 0 80px #2196F3, 0 0 100px #2196F3, 0 0 170px #2196F3;
+                color: #00B7FC;
+                text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #2196F3,0 0 70px #2196F3,0 0 80px #2196F3,0 0 100px #2196F3,0 0 170px #2196F3;
             }
 
             50% {
                 color: #2196F3;
-                text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #2196F3, 0 0 70px #2196F3, 0 0 80px #2196F3, 0 0 100px #2196F3, 0 0 170px #2196F3;
+                text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #2196F3,0 0 70px #2196F3,0 0 80px #2196F3,0 0 100px #2196F3,0 0 170px #2196F3;
             }
 
             75% {
-                color: #2196F3;
-                text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #2196F3, 0 0 70px #2196F3, 0 0 80px #2196F3, 0 0 100px #2196F3, 0 0 170px #2196F3;
+                color: #00B7FC;
+                text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #2196F3,0 0 70px #2196F3,0 0 80px #2196F3,0 0 100px #2196F3,0 0 170px #2196F3;
             }
 
             100% {
                 color: #2196F3;
-                text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #2196F3, 0 0 70px #2196F3, 0 0 80px #2196F3, 0 0 100px #2196F3, 0 0 170px #2196F3;
+                text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #2196F3,0 0 70px #2196F3,0 0 80px #2196F3,0 0 100px #2196F3,0 0 170px #2196F3;
             }
-        }
         }
     </style>
 </head>
 
 <body>
     <footer>
-        <section id="footerbox">
-            <a id="footerlink" href="#">
+        <section class="footerbox">
+            <a class="footerlink" href="#">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 HOME</a>
-            <a id="footerlink" href="#">
+            <a class="footerlink" href="#">
                 <span></span>
                 <span></span>
                 <span></span>
